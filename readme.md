@@ -53,19 +53,4 @@ Represents individual tickets for a show.
   - `SeatNumber`
   - `Price`
 
-## SQL Schema
-
-The SQL schema is written to fit into a relational database and follows normalization rules. You can find the SQL table creation and sample queries in the files listed below.
-
-### Table Creation
-
-- **Movie Table**:
-  ```sql
-  CREATE TABLE movie (
-      MovieID INT PRIMARY KEY,
-      MovieName VARCHAR(255) NOT NULL,
-      Duration INT NOT NULL,
-      Genre VARCHAR(100),
-      Language VARCHAR(100),
-      Rating DECIMAL(3, 1)
-  );
+ 
